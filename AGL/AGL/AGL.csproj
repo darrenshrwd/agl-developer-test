@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PeopleClient\AGL.Client.csproj">
+      <Project>{9C4661C7-7223-43CB-B76B-BA1A58BA99FC}</Project>
+      <Name>AGL.Client</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
